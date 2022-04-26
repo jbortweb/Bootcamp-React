@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var dni = Number(prompt('Introduce solo el número de tu dni'));
+        var letra = prompt('Introduce la letra de tu DNI')
+
+        function ComprobarDNI(numero, letraOrifginal){
+
+            var letras = "TRWAGMYFPDXBNJZSQVHLCKET";
+            var letraComp = letras[dni % 23];
+
+            if(letraOrifginal === letraComp){
+                alert('Tu DNI es valido');
+            }else {
+                alert('Tu DNI no es valido');
+            }
+        }
+
+        ComprobarDNI(dni, letra);
+    </script>
+</body>
+</html>
