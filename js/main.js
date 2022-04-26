@@ -1,18 +1,11 @@
-var edad = 18;
-/*
-var puedoVerPelicula;
+var saldo = 10;
+index = 0;
 
-if(edad >= 18){
-    puedoVerPelicula ='SI';
-}else{
-    puedoVerPelicula ='NO';
+while (saldo > 0){
+
+    ++index;
+    console.log ('Nueva partida nº ' + index);
+    saldo -= 1  // Iterador
 }
-console.log (puedoVerPelicula);
 
-*/
-
-// Operador ternario
-
-var puedoVerPelicula = (edad >= 18)
-    ? 'SI'  // Se cumple la condicion
-    : 'NO'  // No se cumple la condicion
+console.log ('Termino el bucle');
