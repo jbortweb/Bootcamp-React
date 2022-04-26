@@ -1,11 +1,19 @@
-var saldo = 10;
-index = 0;
+            //Bucle do while 
 
-while (saldo > 0){
+/*
+var tabla = 5;
+var factor = 11;
 
-    ++index;
-    console.log ('Nueva partida nº ' + index);
-    saldo -= 1  // Iterador
-}
+        do{
+            console.log (tabla + ' X ' + factor + ' = ' + (tabla * factor));
+            ++factor;
+        }while (factor <= 10);
+*/
 
-console.log ('Termino el bucle');
+            //Bucle for
+
+    var tabla = 5;
+
+        for (let i = 0; i <= 10; i++) {
+            console.log(tabla + " X " + i + " = " + tabla * i);
+        }
