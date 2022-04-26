@@ -1,55 +1,43 @@
-//Arrays
-/*        
-var notas = [5, 6, 7, 8, 3, 2, 4, 10, 3];
+//Objetos
 
-console.log (notas[2]); // 7
-console.log (notas.length)  //9
+/* var marca = 'Ferrari';
+var modelo = "Serie X";
+var anyoFabricacion = '2020';
+var nPuertas = 4;
+var deposito = 30; */
 
-notas[2] = 5;
-console.log (notas[2]); // 5
+var Ferrari = {
+  marca : 'Ferrari',
+  modelo : "Serie X",
+  anyoFabricacion : '2020',
+  nPuertas : 4,
+  deposito : 30,
+  autonomia : 500
+  };
 
-for (let i = 0; i < notas.length; i++){
+  var Mercedes = {
+    marca : 'Mercedes',
+    modelo : "Serie 3",
+    anyoFabricacion : '2018',
+    nPuertas : 2,
+    deposito : 60,
+    autonomia : 800
+    };
 
-    console.log ('Bucle nº '+ i);
-    console.log (notas[i]);
-}
-*/
-//Metodo Push
+  console.log(Ferrari.modelo);
+  console.log(Mercedes.modelo);
 
-var notas = [];
-var notasClaseB = [3, 5, 8];
-var nAlumnos = 5;
+  function MejorAutonomia(coche1, coche2){
+    if(coche1.autonomia > coche2.autonomia){
+        console.log(coche1.marca);
+    }else{
+      console.log(coche2.marca);
+    }
+  }
 
-for (var i = 1; i <= nAlumnos; i++) {
-  var newNota = prompt("Introduce la nota nº " + i);
-  notas.push(Number(newNota));
-}
-console.log('Metodo push, añade al final');
-console.log(notas);
+  MejorAutonomia(Ferrari, Mercedes);
 
-//Metodo Concat
-console.log('Metodo contac (3, 5, 8)');
-console.log(notas.concat(notasClaseB));
+  //Objetos en Arrays
 
-//Metodo Join
-console.log('Metodo join, string separado por puntos');
-console.log(notas.join('.'));
 
-//Metodo unshift
-console.log('Metodo unshift, coloca delante del array');
-console.log(notas.unshift(2));
-console.log(notas);
-
-//Metodo shift
-console.log('Metodo shift, elimina primer elemento');
-console.log(notas.shift());
-console.log(notas);
-
-//Metodo pop
-console.log('Metodo pop, elimina ultimo elemento');
-console.log(notas.pop());
-console.log(notas);
-
-//Metodo Reverse
-console.log('Metodo reverse');
-console.log(notas.reverse());
+  

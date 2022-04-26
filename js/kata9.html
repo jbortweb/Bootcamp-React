@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nombre = prompt('Introduce tu nombre');
+        var edad = Number(prompt('Introduce tu edad'));
+        var pelisPermitidas = [];
+
+        var listaPeliculas = [
+            {titulo: "Soy leyenda", edadMinima: 13},
+            {titulo: 'Rey León', edadMinima: 3},
+            {titulo: 'La marca del demonio', edadMinima:18},
+            {titulo:'A todo gas', edadMinima:8}
+        ]
+
+        for(var i = 0; i <listaPeliculas.length; i++){
+            if( edad >=listaPeliculas[i].edadMinima){
+                pelisPermitidas.push(listaPeliculas[i].titulo);
+            }
+        }
+
+        console.log (nombre + ' puedes ver las siguientes pelis ' + pelisPermitidas.join(' , '));
+    </script>
+</body>
+</html>
