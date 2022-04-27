@@ -43,12 +43,15 @@ let contador = string => {
         }
     }
 
-    console.log ('El total de caracteres es '+ string.length)
-    console.log ('En numero de palabras son' + palabras);
-    console.log ('Los caracteres sin espacios son ' + sinEspacios);
-    console.log ('Los caracteres sin espacios ni signos de puntuación son ' + sinPuntosNiEs);
-    console.log ('Los caracteres sin contar las vocales acentuadas son '+ (string.length - acentos));
-    console.log ('Los caracteres sin contar las mayusculas son '+ (string.length - totalmayus))
+    carac = 'El total de caracteres es '+ string.length;
+    
+    palab = 'En numero de palabras son ' + palabras + "\n";
+    sines = 'Los caracteres sin espacios son ' + sinEspacios + "\n";
+    sinpun = 'Los caracteres sin espacios ni signos de puntuación son ' + sinPuntosNiEs + "\n";
+    sinacen = 'Los caracteres sin contar las vocales acentuadas son '+ (string.length - acentos) + "\n";
+    sinmayus = 'Los caracteres sin contar las mayusculas son '+ (string.length - totalmayus);
+
+    return palab + sines + sinpun + sinacen + sinmayus;
     
 }
 
