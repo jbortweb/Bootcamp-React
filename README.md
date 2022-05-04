@@ -8,10 +8,10 @@
 
 - 📫 Mi correo de contacto es **jbortweb@gmail.com.com**
 
-<p align="left">
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jbortweb&layout=compact&hide=html" alt="jbortweb" />
+<p>
+  &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jbortweb&show_icons=true&theme=radical)" alt="jbortweb" />
 </p>
 
-<p>
-  &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jbortweb&show_icons=true" alt="jbortweb" />
+<p align="left">
+&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jbortweb&layout=compact"/>
 </p>
