@@ -2,9 +2,9 @@
 <h3 align="center">Entusiasta desarrollador de Front End</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jbortweb" alt="jbortweb" /> </p>
 
-- 🔭 Yo trabajo de **Front End Developer**
+- 👷 Yo trabajo de **Front End Developer**
 
-- 💬 Los lenguajes que domino son **JavaScript, HTML5, CSS3**
+- 💻 Los lenguajes que domino son **JavaScript, HTML5, CSS3**
 
 - 📫 Mi correo de contacto es **jbortweb@gmail.com.com**
 
